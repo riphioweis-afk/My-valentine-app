@@ -1,11 +1,11 @@
-// src/App.jsx
 
-const App = () => {
 
+import ValentineApp from './valentine';
+
+function App() {
   return (
-    <h1>Hello world!</h1>
+    <ValentineApp />
   );
 }
 
-export default App
-
+export default App;
